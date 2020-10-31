@@ -88,6 +88,7 @@ data = [
 # Windows: need to add
 options = Options()
 options.add_argument(<user profile>)
+options.add_argument("--use-fake-ui-for-media-stream")
 
 # Try adjusting this so when chrome window open you see the sign-in button.
 options.add_argument("window-size=1200,900")
@@ -123,7 +124,7 @@ while(while_flag):
         # and add it as a PATH variable or specify the path in the
         # next line in the executable_path argument. 
         driver = webdriver.Chrome(executable_path = "./chromedriver", desired_capabilities = DesiredCapabilities.CHROME,
-                                  chrome_options = options)
+                                  options = options)
         driver.implicitly_wait(5)
         driver.get(meet)
 
