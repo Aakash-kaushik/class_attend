@@ -1,6 +1,6 @@
 # Guide for setting up the script(class_attend.py)
 
-**The Script only works on Firefox as of now**
+**The Script works better on Firefox as of now**
 
 ### Getting Gecko Drivers
 - Download [Gecko Drivers](https://github.com/mozilla/geckodriver/releases) and add them as a PATH variable.
