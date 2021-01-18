@@ -32,4 +32,4 @@ python3 class_attend.py -d [day Order, type = integer]
 
 #### Future updates
  - [x] day order selection when running the script.
- - [x] support for other browsers, Not so sure about this(kinda works)
+ - [x] support for other browsers (added for chrome, works mostly)
